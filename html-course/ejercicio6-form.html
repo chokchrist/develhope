@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="/start.html">
+      <label for="email">email</label>
+      <input type="email" id="email">
+
+      <label for="password">password</label>
+      <input type="password" id="password">
+
+      <label for="fullname">Name and lastname</label>
+      <input type="text" id="fullname">
+
+      <label for="dateBirth">Date of birth</label>
+      <input type="date" id="dateBirth">
+
+      <label for="number">Telephone number</label>
+      <input type="tel" id="number">
+
+      <label for="plans">Plans</label>
+      <select name="" id="plans">
+        <option value="">Free plan</option>
+        <optgroup label="Paid Plans">
+          <option value="">Low</option>
+          <option value="">Mid</option>
+          <option value="">High</option>
+        </optgroup>
+      </select>
+
+      <label for="proPlan">Pro Plan</label>
+      <input type="checkbox" name="proPlan id="proPlan">
+
+      <label for="creditCard">Credit Card</label>
+      <input type="text" name="creditCard" id="creditCard" maxlength="12">
+
+      <label for="cvc">CVC</label>
+      <input type="text" name="cvc" id="cvc" maxlength="3">
+
+      <label for="expDate">Expiration Date</label>
+      <input type="month" name="expDate" id="expDate">
+
+      <label for="billingAddress">Billing Address</label>
+      <input type="text" name="billingAddress" id="billingAddress">
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
