@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas: 
+        "green green green"
+        "yellow red blue"
+        "orange orange blue";
+}
+
+#green {
+    grid-area: green;
+    background-color: green;
+}
+
+#yellow {
+    grid-area: yellow;
+    background-color: yellow;
+}
+
+#red {
+    grid-area: red;
+    background-color: red;
+}
+
+#blue {
+    grid-area: blue;
+    background-color: blue;
+}
+
+#orange {
+    grid-area: orange;
+    background-color: orange;
+}

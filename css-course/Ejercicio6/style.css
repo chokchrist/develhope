@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #171717;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 1px solid cornsilk;
+    background-color: cornflowerblue;
+    color: rgb(223, 217, 217);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(223, 217, 217);
+}
+
+select {
+    text-decoration: none;
+    border: none;
+    background-color: cornflowerblue;
+    color: rgb(223, 217, 217);
+    font-size: 15px;
+}
+
+li > button {
+    border: none;
+    background-color: cornflowerblue;
+    color: rgba(223, 217, 217, 0.756);
+    font-size: 15px;
+}
+
+
+input {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+form > button {
+    padding: 6px;
+    border: 1px solid rgb(229, 247, 115);
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: rgb(229, 247, 115)
+}

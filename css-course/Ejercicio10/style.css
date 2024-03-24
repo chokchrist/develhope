@@ -1,0 +1,48 @@
+div {
+    /* border: 1px solid black; */
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px grey;
+}
+
+p {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 2em;
+    appearance: none;
+    border: none;
+}
+
+.screen {
+    /* border-bottom: 1px solid black; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+    background-color: gray;
+}
+
+.keybinds {
+    /* border-bottom: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.result {
+    grid-row: span 4;
+    background-color: indianred;
+}
+
+.operators {
+    background-color: aliceblue;
+
+}
+

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+section {
+    height: 100vh;
+    padding: 15vh 20px 0 20px;
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section p {
+    align-self: flex-start;
+    padding: 15px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+#yellow {
+    background: yellow;
+    flex-grow: 2;
+}
+
+#yellow li {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+
+#red {
+    background: red;
+    flex-grow: 2;
+}
+
+#red li {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+}
+
+#green {
+    background: green;
+    flex-grow: 1;
+}
+
+#orange {
+    background: orange;
+    flex-grow: 4;
+}
+
+#blue {
+    background: blue;
+    flex-grow: 1;
+}
