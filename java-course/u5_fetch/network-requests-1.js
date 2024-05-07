@@ -5,5 +5,5 @@ async function fetchToDo() {
 }
 
 fetchToDo()
-.then((response) => (console.log(response))) 
-.catch((error) => {console.error(error, "El fetch falló.")})
+.then((resp) => (console.log(resp))) 
+.catch((err) => {console.error(err, "El fetch falló.")})
