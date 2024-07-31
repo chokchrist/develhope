@@ -25,4 +25,4 @@ const filter = {
 }
 const json = JSON.parse(JSON.stringify(filter));
 
-console.log(json); // Should return: { id: 1, age: 25 }
+console.log(json);
