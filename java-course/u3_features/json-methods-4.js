@@ -14,18 +14,15 @@
 
 const person = {
   id: 1,
-  firstName: 'Mario',
-  lastName: 'Rossi',
+  firstName: "Mario",
+  lastName: "Rossi",
   age: 25,
 };
 
-const replacer = (key, value) => {
-  if (key === 'id' || key === 'age') {
-    return value;
-  }
-  return undefined;
-};
+const filter = {
+  id: person.id,
+  age: person.age,
+}
+const json = JSON.parse(JSON.stringify(filter));
 
-const json = JSON.stringify(person, replacer);
-
-console.log(json);
+console.log(json); // Should return: { id: 1, age: 25 }
