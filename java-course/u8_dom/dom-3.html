@@ -25,14 +25,12 @@
   </div>
 
   <script>
-    const labels = document.querySelectorAll('label');
-
-    labels.forEach(label => {
-      const input = label.previousElementSibling;
-      const value = input.value;
-
-      console.log(`${label.textContent.trim()}: ${value}`);
-    });
+    const labelData = document.getElementsByTagName("label");
+    const inputValue = document.getElementsByClassName("form-input");
+    
+    for (let key = 0; key < labelData.length; key++) {
+      console.log(labelData[key].textContent, inputValue[key].value);
+    }
   </script>
 </body>
 
